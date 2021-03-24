@@ -1,0 +1,5077 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2020/11/LingOnto"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2020/11/LingOnto">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2020/11/LingOnto#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>LingOnto is  a multilingual linguistic domain ontology that allow a semantic handling of linguistic knowledge. </Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AB_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arabic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circumfixe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clitic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#English"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#French"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPSG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPSG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LAMBEK_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LFG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linguistic_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NE_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NE_recognizing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#POS_tagging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TAG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adverb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adverbial_phrase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adverbial_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#affirmative_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#affix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#affixed_personal_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#allusive_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#analysis_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anaphora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#approach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aspect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bullet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#button-down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cardinal_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#case"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#categorial_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chart_parsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chunking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#circumposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#close_parenthesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#colon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#common_noun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comparative_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compound_preposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conditional_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conditional_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conjunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordinating_conjunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordination_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#copula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coreference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coreference_resolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#corpora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deficient_verb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#definite_article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#definite_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#demonstrative_adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#demonstrative_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dependency_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dependency_parsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deponent_verb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depparsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#determiner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#detokenizing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diacritisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dictionnary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diminutive_noun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distinctive_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distributional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#document_categorizing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#echo_word"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ellipsis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ellipsis_of_a_entire__syntagm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#emphatic_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enclitic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exclamative_determiner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exclamative_point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exclamative_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#existential_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fixed_Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#formal_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#formalism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fused_preposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fused_preposition_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fused_pronoun_auxiliary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#future_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#general_adverb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#generic_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hybrid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impersonal_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indefinite_article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indefinite_determiner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indefinite_multiplicative_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indefinite_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indefinite_ordinal_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indefinite_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infinitive_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inflexional_feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interjection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interrogative_cardinal_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interrogative_determiner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interrogative_multiplicative_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interrogative_ordinal_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interrogative_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interrogative_point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interrogative_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inverted_comma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#language_identification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#left_corner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lemma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lemmatization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lexeme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lexical_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lexical_polysemy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lexicon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linguistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linguistic_ontology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#main_verb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mohmil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morphological_analyzing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morphological_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multiplicative_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#negative_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#negative_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nominal_Ellipsis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nominal_anaphora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nominal_phrase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non_templatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#normalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#noun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#numeral_fraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#of_dependence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_parenthesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ordinal_numeral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paraphrase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paraphrasing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parenthesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#part_of_speech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#participle_adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#particle_adverb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#partitive_article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#past_participle_adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#personal_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phenomenon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phrase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phrase_structure_parsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plain_verb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polysemy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#possessive_adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#possessive_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#possessive_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#postposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prefix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#preposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prepositional_adverb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#present_participle_adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#presentative_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#processing_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#proclitic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pronominal_adverb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pronominal_anaphora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#proper_noun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#punctuation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quadriliteral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#qualifier_adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radical_count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radical_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reduplicative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reflexive_determiner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reflexive_possessive_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regular_polysemy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relation_noun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relative_determiner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relative_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relative_possessive_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relative_pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#root"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#root_extraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#semantic_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#semi_colon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sense_tagging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sentence_splitting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sentiment_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simple_preposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#speech_recognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#statistical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stemming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structural_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subordinating_conjunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suffix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#summarization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#superficial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#superlative_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#support_verb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#surface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suspension_point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#syntactic_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#templatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#terminology_database"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#text_to_speech_conversion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thesaurus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tokenization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#top-down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#translation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#treatment_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#triliteral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type0_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type1_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type2_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type3_grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unclassified_particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unification_formalism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#verb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#verbal_phrase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#voice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#voice_noun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#word"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#xml_cleaning"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_adjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_adposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_adverb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_affix"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_analysis_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_comma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_conjunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_enclitic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_form_related"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_gender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_infix"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_input"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_language"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_lemma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_noun"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_output"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_part_of_speech"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_passive_form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_phenomenen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_phonotic_form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_prefix"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_processing_level"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_proclitic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_resource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_root"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_stem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_suffix"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_treatment_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_verb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_composed_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#main_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#may_followed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#may_requiers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#refined_into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sentence_splitting_requiers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sourround"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supported_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tokenize_requiers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treated_by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neuter"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AB_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AB_grammars"/>
+        <Class IRI="#categorial_grammars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AB_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arabic"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arabic"/>
+        <Class IRI="#language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circumfixe"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circumfixe"/>
+        <Class IRI="#affix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clitic"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English"/>
+        <Class IRI="#language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#French"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#French"/>
+        <Class IRI="#language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPSG"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPSG"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPSG"/>
+        <Class IRI="#unification_formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPSG"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPSG"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPSG"/>
+        <Class IRI="#unification_formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LAMBEK_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LAMBEK_grammars"/>
+        <Class IRI="#categorial_grammars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LAMBEK_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LFG"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LFG"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LFG"/>
+        <Class IRI="#unification_formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NE_classification"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NE_recognizing"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NE_recognizing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#dependency_parsing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NE_recognizing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#lemmatization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NE_recognizing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#root_extraction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NE_recognizing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#stemming"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#POS_tagging"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#POS_tagging"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TAG"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TAG"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TAG"/>
+        <Class IRI="#unification_formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adjective"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adjective"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adposition"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adposition"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adverb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adverb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adverbial_phrase"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adverbial_phrase"/>
+        <Class IRI="#phrase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adverbial_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adverbial_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adverbial_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#affirmative_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#affirmative_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#affirmative_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#affix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#affixed_personal_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#affixed_personal_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#affixed_personal_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allusive_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allusive_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allusive_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#analysis"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#analysis"/>
+        <Class IRI="#treatment_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#analysis_type"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anaphora"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anaphora"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anaphora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#approach"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#article"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#article"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#article"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aspect"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aspect"/>
+        <Class IRI="#inflexional_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bullet"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bullet"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bullet"/>
+        <Class IRI="#punctuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#button-down"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#button-down"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardinal_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardinal_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardinal_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#case"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#case"/>
+        <Class IRI="#inflexional_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#categorial_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#categorial_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chart_parsing"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chart_parsing"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chunking"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chunking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#POS_tagging"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#circumposition"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#circumposition"/>
+        <Class IRI="#adposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#circumposition"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#close_parenthesis"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#close_parenthesis"/>
+        <Class IRI="#parenthesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#close_parenthesis"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#colon"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#colon"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#colon"/>
+        <Class IRI="#punctuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comma"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comma"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#common_noun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#common_noun"/>
+        <Class IRI="#noun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#common_noun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comparative_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comparative_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comparative_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compound_preposition"/>
+        <Class IRI="#adposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compound_preposition"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compound_preposition"/>
+        <Class IRI="#preposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conditional_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conditional_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conditional_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conditional_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conditional_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conditional_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conjunction"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conjunction"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordinating_conjunction"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordinating_conjunction"/>
+        <Class IRI="#conjunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordinating_conjunction"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordination_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordination_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordination_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#copula"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#copula"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#copula"/>
+        <Class IRI="#verb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coreference"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coreference"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coreference"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coreference_resolution"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coreference_resolution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#chunking"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coreference_resolution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#depparsing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#corpora"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#corpora"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deficient_verb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deficient_verb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deficient_verb"/>
+        <Class IRI="#verb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definite_article"/>
+        <Class IRI="#article"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definite_article"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definite_article"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definite_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definite_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definite_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demonstrative_adjective"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demonstrative_adjective"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demonstrative_adjective"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demonstrative_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demonstrative_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demonstrative_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dependency_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dependency_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dependency_parsing"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dependency_parsing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#root_extraction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dependency_parsing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deponent_verb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deponent_verb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deponent_verb"/>
+        <Class IRI="#verb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depparsing"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depparsing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#POS_tagging"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#determiner"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#determiner"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detokenizing"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diacritisation"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diacritisation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_language"/>
+            <Class IRI="#Arabic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dictionnary"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dictionnary"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diminutive_noun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diminutive_noun"/>
+        <Class IRI="#noun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diminutive_noun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distinctive_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distinctive_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distinctive_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distributional"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distributional"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#document_categorizing"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#echo_word"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#echo_word"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ellipsis"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ellipsis"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ellipsis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ellipsis_of_a_entire__syntagm"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ellipsis_of_a_entire__syntagm"/>
+        <Class IRI="#ellipsis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ellipsis_of_a_entire__syntagm"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ellipsis_of_a_entire__syntagm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#emphatic_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#emphatic_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#emphatic_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enclitic"/>
+        <Class IRI="#Clitic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enclitic"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_determiner"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_determiner"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_determiner"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_point"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_point"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_point"/>
+        <Class IRI="#punctuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclamative_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#existential_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#existential_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#existential_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fixed_Form"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fixed_Form"/>
+        <Class IRI="#ellipsis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fixed_Form"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fixed_Form"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#formal_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#formal_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#formalism"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused_preposition"/>
+        <Class IRI="#adposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused_preposition"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused_preposition"/>
+        <Class IRI="#preposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused_preposition_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused_preposition_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused_pronoun_auxiliary"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused_pronoun_auxiliary"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused_pronoun_auxiliary"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#future_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#future_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#future_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gender"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gender"/>
+        <Class IRI="#inflexional_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#general_adverb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#general_adverb"/>
+        <Class IRI="#adverb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#general_adverb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#generation"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#generation"/>
+        <Class IRI="#treatment_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#generic_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#generic_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#generic_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hybrid"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hybrid"/>
+        <Class IRI="#approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impersonal_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impersonal_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impersonal_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_article"/>
+        <Class IRI="#article"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_article"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_article"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_determiner"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_determiner"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_determiner"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_multiplicative_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_multiplicative_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_multiplicative_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_ordinal_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_ordinal_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_ordinal_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indefinite_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infinitive_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infinitive_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infinitive_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infix"/>
+        <Class IRI="#affix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inflexional_feature"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interjection"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interjection"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_cardinal_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_cardinal_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_cardinal_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_determiner"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_determiner"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_determiner"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_multiplicative_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_multiplicative_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_multiplicative_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_ordinal_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_ordinal_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_ordinal_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_point"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_point"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_point"/>
+        <Class IRI="#punctuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrogative_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inverted_comma"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inverted_comma"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#language"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#language_identification"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#left_corner"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#left_corner"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lemma"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lemma"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lemmatization"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lemmatization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#POS_tagging"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexeme"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexical_level"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexical_level"/>
+        <Class IRI="#processing_level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexical_polysemy"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexical_polysemy"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexical_polysemy"/>
+        <Class IRI="#polysemy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexical_polysemy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexicon"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lexicon"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linguistic"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linguistic"/>
+        <Class IRI="#approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linguistic_ontology"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linguistic_ontology"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#main_verb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#main_verb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#main_verb"/>
+        <Class IRI="#verb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mohmil"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mohmil"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mood"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mood"/>
+        <Class IRI="#inflexional_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morphological_analyzing"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morphological_level"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morphological_level"/>
+        <Class IRI="#processing_level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multiplicative_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multiplicative_numeral"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multiplicative_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#negative_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#negative_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#negative_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#negative_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#negative_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#negative_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_Ellipsis"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_Ellipsis"/>
+        <Class IRI="#ellipsis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_Ellipsis"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_Ellipsis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_anaphora"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_anaphora"/>
+        <Class IRI="#anaphora"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_anaphora"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_anaphora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_phrase"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_phrase"/>
+        <Class IRI="#phrase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non_templatic"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non_templatic"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non_templatic"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#normalization"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#normalization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#noun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#noun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#number"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#number"/>
+        <Class IRI="#inflexional_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#numeral_fraction"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#numeral_fraction"/>
+        <Class IRI="#numeral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#numeral_fraction"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#of_dependence"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#of_dependence"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_parenthesis"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_parenthesis"/>
+        <Class IRI="#parenthesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_parenthesis"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ordinal_numeral"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ordinal_numeral"/>
+        <Class IRI="#adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ordinal_numeral"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paraphrase"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paraphrase"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paraphrase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paraphrasing"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parenthesis"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parenthesis"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parsing"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parsing"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#part_of_speech"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#participle_adjective"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#participle_adjective"/>
+        <Class IRI="#adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#participle_adjective"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#particle_adverb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#particle_adverb"/>
+        <Class IRI="#adverb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#particle_adverb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#partitive_article"/>
+        <Class IRI="#article"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#partitive_article"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#partitive_article"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#past_participle_adjective"/>
+        <Class IRI="#adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#past_participle_adjective"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#past_participle_adjective"/>
+        <Class IRI="#participle_adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#person"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#person"/>
+        <Class IRI="#inflexional_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#personal_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#personal_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#personal_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phenomenon"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phenomenon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phrase"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phrase_structure_parsing"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plain_verb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plain_verb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plain_verb"/>
+        <Class IRI="#verb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#point"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#point"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#point"/>
+        <Class IRI="#punctuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polysemy"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polysemy"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polysemy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_adjective"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_adjective"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_adjective"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessive_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#postposition"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#postposition"/>
+        <Class IRI="#adposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#postposition"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prefix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prefix"/>
+        <Class IRI="#affix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#preposition"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#preposition"/>
+        <Class IRI="#adposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#preposition"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prepositional_adverb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prepositional_adverb"/>
+        <Class IRI="#adverb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prepositional_adverb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#present_participle_adjective"/>
+        <Class IRI="#adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#present_participle_adjective"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#present_participle_adjective"/>
+        <Class IRI="#participle_adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#presentative_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#presentative_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#presentative_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#processing_level"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proclitic"/>
+        <Class IRI="#Clitic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proclitic"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profound"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profound"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronominal_adverb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronominal_adverb"/>
+        <Class IRI="#adverb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronominal_adverb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronominal_anaphora"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronominal_anaphora"/>
+        <Class IRI="#anaphora"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronominal_anaphora"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronominal_anaphora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proper_noun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proper_noun"/>
+        <Class IRI="#noun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proper_noun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#punctuation"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#punctuation"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quadriliteral"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quadriliteral"/>
+        <Class IRI="#radical_count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quadriliteral"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#qualifier_adjective"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#qualifier_adjective"/>
+        <Class IRI="#adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#qualifier_adjective"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radical_count"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radical_count"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radical_count"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radical_form"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radical_form"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radical_form"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reduplicative"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reduplicative"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reflexive_determiner"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reflexive_determiner"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reflexive_determiner"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reflexive_possessive_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reflexive_possessive_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reflexive_possessive_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regular_polysemy"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regular_polysemy"/>
+        <Class IRI="#phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regular_polysemy"/>
+        <Class IRI="#polysemy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regular_polysemy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relation_noun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relation_noun"/>
+        <Class IRI="#noun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relation_noun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_determiner"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_determiner"/>
+        <Class IRI="#determiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_determiner"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_possessive_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_possessive_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_possessive_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_pronoun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_pronoun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_pronoun"/>
+        <Class IRI="#pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#root"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#root"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#root_extraction"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semantic_level"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semantic_level"/>
+        <Class IRI="#processing_level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semi_colon"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semi_colon"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semi_colon"/>
+        <Class IRI="#punctuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sense_tagging"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sentence_splitting"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sentence_splitting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sentiment_analysis"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sentiment_analysis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#chunking"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simple_preposition"/>
+        <Class IRI="#adposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simple_preposition"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simple_preposition"/>
+        <Class IRI="#preposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slash"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slash"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slash"/>
+        <Class IRI="#punctuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#speech_recognition"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#state"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#state"/>
+        <Class IRI="#inflexional_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#statistical"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#statistical"/>
+        <Class IRI="#approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stem"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stem"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stemming"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stemming"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#lemmatization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structural"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structural"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structural_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structural_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subordinating_conjunction"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subordinating_conjunction"/>
+        <Class IRI="#conjunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subordinating_conjunction"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suffix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suffix"/>
+        <Class IRI="#affix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#summarization"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#superficial"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#superficial"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#superlative_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#superlative_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#superlative_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#support_verb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#support_verb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#support_verb"/>
+        <Class IRI="#verb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#surface"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#surface"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suspension_point"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suspension_point"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suspension_point"/>
+        <Class IRI="#punctuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#syntactic_level"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#syntactic_level"/>
+        <Class IRI="#processing_level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#templatic"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#templatic"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#templatic"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#terminology_database"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#terminology_database"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#text"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#text_to_speech_conversion"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thesaurus"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thesaurus"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tokenization"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tokenization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#sentence_splitting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#top-down"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#top-down"/>
+        <Class IRI="#analysis_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#translation"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#treatment_type"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#triliteral"/>
+        <Class IRI="#lexeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#triliteral"/>
+        <Class IRI="#radical_count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#triliteral"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type0_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type0_grammars"/>
+        <Class IRI="#formal_grammars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type0_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type1_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type1_grammars"/>
+        <Class IRI="#formal_grammars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type1_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type2_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type2_grammars"/>
+        <Class IRI="#formal_grammars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type2_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type3_grammars"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type3_grammars"/>
+        <Class IRI="#formal_grammars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type3_grammars"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unclassified_particle"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unclassified_particle"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unclassified_particle"/>
+        <Class IRI="#particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unification_formalism"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unification_formalism"/>
+        <Class IRI="#formalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verb"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verb"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verbal_phrase"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verbal_phrase"/>
+        <Class IRI="#phrase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#voice"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#voice"/>
+        <Class IRI="#inflexional_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#voice_noun"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#voice_noun"/>
+        <Class IRI="#part_of_speech"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#word"/>
+        <Class IRI="#Linguistic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#xml_cleaning"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#xml_cleaning"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Linguistic_Data"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Linguistic_Data"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NE_classification"/>
+        <Class IRI="#NE_recognizing"/>
+        <Class IRI="#POS_tagging"/>
+        <Class IRI="#chunking"/>
+        <Class IRI="#coreference_resolution"/>
+        <Class IRI="#dependency_parsing"/>
+        <Class IRI="#language_identification"/>
+        <Class IRI="#lemmatization"/>
+        <Class IRI="#morphological_analyzing"/>
+        <Class IRI="#paraphrasing"/>
+        <Class IRI="#phrase_structure_parsing"/>
+        <Class IRI="#root_extraction"/>
+        <Class IRI="#sense_tagging"/>
+        <Class IRI="#sentence_splitting"/>
+        <Class IRI="#speech_recognition"/>
+        <Class IRI="#stemming"/>
+        <Class IRI="#text_to_speech_conversion"/>
+        <Class IRI="#tokenization"/>
+        <Class IRI="#translation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#adjective"/>
+        <Class IRI="#adposition"/>
+        <Class IRI="#adverb"/>
+        <Class IRI="#bullet"/>
+        <Class IRI="#colon"/>
+        <Class IRI="#comma"/>
+        <Class IRI="#conjunction"/>
+        <Class IRI="#determiner"/>
+        <Class IRI="#echo_word"/>
+        <Class IRI="#fused_preposition_pronoun"/>
+        <Class IRI="#interjection"/>
+        <Class IRI="#inverted_comma"/>
+        <Class IRI="#noun"/>
+        <Class IRI="#numeral"/>
+        <Class IRI="#parenthesis"/>
+        <Class IRI="#particle"/>
+        <Class IRI="#pronoun"/>
+        <Class IRI="#reduplicative"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#adjective"/>
+        <Class IRI="#adposition"/>
+        <Class IRI="#adverb"/>
+        <Class IRI="#comma"/>
+        <Class IRI="#conjunction"/>
+        <Class IRI="#determiner"/>
+        <Class IRI="#echo_word"/>
+        <Class IRI="#fused_preposition_pronoun"/>
+        <Class IRI="#interjection"/>
+        <Class IRI="#inverted_comma"/>
+        <Class IRI="#mohmil"/>
+        <Class IRI="#noun"/>
+        <Class IRI="#numeral"/>
+        <Class IRI="#parenthesis"/>
+        <Class IRI="#particle"/>
+        <Class IRI="#pronoun"/>
+        <Class IRI="#punctuation"/>
+        <Class IRI="#reduplicative"/>
+        <Class IRI="#verb"/>
+        <Class IRI="#voice_noun"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#adverbial_pronoun"/>
+        <Class IRI="#affixed_personal_pronoun"/>
+        <Class IRI="#allusive_pronoun"/>
+        <Class IRI="#conditional_pronoun"/>
+        <Class IRI="#definite_pronoun"/>
+        <Class IRI="#demonstrative_pronoun"/>
+        <Class IRI="#emphatic_pronoun"/>
+        <Class IRI="#exclamative_pronoun"/>
+        <Class IRI="#existential_pronoun"/>
+        <Class IRI="#fused_pronoun_auxiliary"/>
+        <Class IRI="#impersonal_pronoun"/>
+        <Class IRI="#indefinite_pronoun"/>
+        <Class IRI="#interrogative_pronoun"/>
+        <Class IRI="#negative_pronoun"/>
+        <Class IRI="#personal_pronoun"/>
+        <Class IRI="#possessive_pronoun"/>
+        <Class IRI="#presentative_pronoun"/>
+        <Class IRI="#reflexive_possessive_pronoun"/>
+        <Class IRI="#relative_possessive_pronoun"/>
+        <Class IRI="#relative_pronoun"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#affirmative_particle"/>
+        <Class IRI="#comparative_particle"/>
+        <Class IRI="#conditional_particle"/>
+        <Class IRI="#coordination_particle"/>
+        <Class IRI="#distinctive_particle"/>
+        <Class IRI="#future_particle"/>
+        <Class IRI="#infinitive_particle"/>
+        <Class IRI="#interrogative_particle"/>
+        <Class IRI="#negative_particle"/>
+        <Class IRI="#possessive_particle"/>
+        <Class IRI="#relative_particle"/>
+        <Class IRI="#superlative_particle"/>
+        <Class IRI="#unclassified_particle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#affix"/>
+        <Class IRI="#infix"/>
+        <Class IRI="#prefix"/>
+        <Class IRI="#suffix"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#analysis_type"/>
+        <Class IRI="#approach"/>
+        <Class IRI="#formalism"/>
+        <Class IRI="#language"/>
+        <Class IRI="#phenomenon"/>
+        <Class IRI="#processing_level"/>
+        <Class IRI="#resource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#anaphora"/>
+        <Class IRI="#coreference"/>
+        <Class IRI="#ellipsis"/>
+        <Class IRI="#paraphrase"/>
+        <Class IRI="#polysemy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#article"/>
+        <Class IRI="#demonstrative_adjective"/>
+        <Class IRI="#exclamative_determiner"/>
+        <Class IRI="#indefinite_determiner"/>
+        <Class IRI="#interrogative_determiner"/>
+        <Class IRI="#possessive_adjective"/>
+        <Class IRI="#reflexive_determiner"/>
+        <Class IRI="#relative_determiner"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#aspect"/>
+        <Class IRI="#case"/>
+        <Class IRI="#gender"/>
+        <Class IRI="#mood"/>
+        <Class IRI="#number"/>
+        <Class IRI="#person"/>
+        <Class IRI="#state"/>
+        <Class IRI="#voice"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#button-down"/>
+        <Class IRI="#chart_parsing"/>
+        <Class IRI="#distributional"/>
+        <Class IRI="#left_corner"/>
+        <Class IRI="#of_dependence"/>
+        <Class IRI="#parsing"/>
+        <Class IRI="#profound"/>
+        <Class IRI="#structural"/>
+        <Class IRI="#superficial"/>
+        <Class IRI="#surface"/>
+        <Class IRI="#top-down"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cardinal_numeral"/>
+        <Class IRI="#generic_numeral"/>
+        <Class IRI="#indefinite_multiplicative_numeral"/>
+        <Class IRI="#indefinite_numeral"/>
+        <Class IRI="#indefinite_ordinal_numeral"/>
+        <Class IRI="#interrogative_cardinal_numeral"/>
+        <Class IRI="#interrogative_multiplicative_numeral"/>
+        <Class IRI="#interrogative_ordinal_numeral"/>
+        <Class IRI="#multiplicative_numeral"/>
+        <Class IRI="#numeral_fraction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#categorial_grammars"/>
+        <Class IRI="#dependency_grammars"/>
+        <Class IRI="#formal_grammars"/>
+        <Class IRI="#unification_formalism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#circumposition"/>
+        <Class IRI="#postposition"/>
+        <Class IRI="#preposition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#close_parenthesis"/>
+        <Class IRI="#open_parenthesis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#common_noun"/>
+        <Class IRI="#diminutive_noun"/>
+        <Class IRI="#proper_noun"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#compound_preposition"/>
+        <Class IRI="#fused_preposition"/>
+        <Class IRI="#simple_preposition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#coordinating_conjunction"/>
+        <Class IRI="#subordinating_conjunction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#copula"/>
+        <Class IRI="#deficient_verb"/>
+        <Class IRI="#deponent_verb"/>
+        <Class IRI="#main_verb"/>
+        <Class IRI="#plain_verb"/>
+        <Class IRI="#support_verb"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#definite_article"/>
+        <Class IRI="#indefinite_article"/>
+        <Class IRI="#partitive_article"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ellipsis_of_a_entire__syntagm"/>
+        <Class IRI="#fixed_Form"/>
+        <Class IRI="#nominal_Ellipsis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#general_adverb"/>
+        <Class IRI="#particle_adverb"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#general_adverb"/>
+        <Class IRI="#particle_adverb"/>
+        <Class IRI="#prepositional_adverb"/>
+        <Class IRI="#pronominal_adverb"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#hybrid"/>
+        <Class IRI="#linguistic"/>
+        <Class IRI="#statistical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#past_participle_adjective"/>
+        <Class IRI="#present_participle_adjective"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="#Arabic"/>
+        <Class IRI="#English"/>
+        <Class IRI="#French"/>
+    </DisjointUnion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_adjective"/>
+        <ObjectProperty IRI="#has_part_of_speech"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_adposition"/>
+        <ObjectProperty IRI="#has_part_of_speech"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_adverb"/>
+        <ObjectProperty IRI="#has_part_of_speech"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_comma"/>
+        <ObjectProperty IRI="#has_part_of_speech"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_conjunction"/>
+        <ObjectProperty IRI="#has_part_of_speech"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_infix"/>
+        <ObjectProperty IRI="#has_affix"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_noun"/>
+        <ObjectProperty IRI="#has_part_of_speech"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_prefix"/>
+        <ObjectProperty IRI="#has_affix"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_suffix"/>
+        <ObjectProperty IRI="#has_affix"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_verb"/>
+        <ObjectProperty IRI="#has_part_of_speech"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <ObjectProperty IRI="#may_requiers"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sentence_splitting_requiers"/>
+        <ObjectProperty IRI="#may_requiers"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tokenize_requiers"/>
+        <ObjectProperty IRI="#may_requiers"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#may_followed_by"/>
+        <ObjectProperty IRI="#may_requiers"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#has_language"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_affix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_affix"/>
+        <Class IRI="#word"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_analysis_type"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_analysis_type"/>
+        <Class IRI="#formalism"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_infix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_infix"/>
+        <Class IRI="#word"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_input"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_language"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_output"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_phenomenen"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_phenomenen"/>
+        <Class IRI="#processing_level"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_prefix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_prefix"/>
+        <Class IRI="#word"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#Arabic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#language"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_processing_level"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_resource"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_resource"/>
+        <Class IRI="#processing_level"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_suffix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_suffix"/>
+        <Class IRI="#word"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_treatment_type"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#may_followed_by"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#may_requiers"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <Class IRI="#POS_tagging"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#refined_into"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#refined_into"/>
+        <Class IRI="#phenomenon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#refined_into"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sentence_splitting_requiers"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sentence_splitting_requiers"/>
+        <Class IRI="#sentence_splitting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sentence_splitting_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supported_by"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supported_by"/>
+        <Class IRI="#phenomenon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supported_by"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tokenize_requiers"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tokenize_requiers"/>
+        <Class IRI="#tokenization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tokenize_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#sentence_splitting"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treated_by"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treated_by"/>
+        <Class IRI="#phenomenon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treated_by"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_affix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_affix"/>
+        <Class IRI="#affix"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_analysis_type"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_analysis_type"/>
+        <Class IRI="#analysis_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_infix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_infix"/>
+        <Class IRI="#affix"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_infix"/>
+        <Class IRI="#infix"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_input"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_language"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_language"/>
+        <Class IRI="#language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_output"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_phenomenen"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_phenomenen"/>
+        <Class IRI="#phenomenon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_phenomenen"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_prefix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_prefix"/>
+        <Class IRI="#affix"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_prefix"/>
+        <Class IRI="#prefix"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#NE_classification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#NE_recognizing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#POS_tagging"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#chunking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#coreference_resolution"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#dependency_parsing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#language_identification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#lemmatization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#morphological_analyzing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#paraphrasing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#phrase_structure_parsing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#root_extraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#sense_tagging"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#sentence_splitting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#speech_recognition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#stemming"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#text_to_speech_conversion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#tokenization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <Class IRI="#translation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#POS_tagging"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#chunking"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#dependency_parsing"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#depparsing"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#lemmatization"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#root_extraction"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#sentence_splitting"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#stemming"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_functionality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_level"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_processing_level"/>
+        <Class IRI="#processing_level"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_resource"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_resource"/>
+        <Class IRI="#resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_suffix"/>
+        <Class IRI="#Linguistic_Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_suffix"/>
+        <Class IRI="#affix"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_suffix"/>
+        <Class IRI="#suffix"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_treatment_type"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_treatment_type"/>
+        <Class IRI="#treatment_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#may_followed_by"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#may_requiers"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <Class IRI="#lemmatization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <Class IRI="#root_extraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <Class IRI="#sentence_splitting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <Class IRI="#stemming"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <Class IRI="#tokenization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#POS_tagging"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#lemmatization"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#sentence_splitting"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pos_tagging_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#refined_into"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#refined_into"/>
+        <Class IRI="#phenomenon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#refined_into"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refined_into"/>
+            <Class IRI="#phenomenon"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sentence_splitting_requiers"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sentence_splitting_requiers"/>
+        <Class IRI="#tokenization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sentence_splitting_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#sentence_splitting"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supported_by"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supported_by"/>
+        <Class IRI="#formalism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tokenize_requiers"/>
+        <Class IRI="#Linguistic_Proceesing_Functionality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tokenize_requiers"/>
+        <Class IRI="#sentence_splitting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tokenize_requiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_requiers"/>
+            <Class IRI="#tokenization"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treated_by"/>
+        <Class IRI="#Linguistic_Processing_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treated_by"/>
+        <Class IRI="#approach"/>
+    </ObjectPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Two processing functionalities x and y  and has_input (x,i) and has_output (y,i)  then may_requiers (x,y)</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R2#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Data"/>
+                <Variable IRI="#i"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_input"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#i"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_output"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#i"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>To deduce requiers relation between two processing functionalities</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R1#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>To deduce a linguistic resource of a linguistic processing functionality</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R3#NLP domain understanding rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#processing_level"/>
+                <Variable IRI="#i"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_processing_level"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#i"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_processing_level"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#i"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#resource"/>
+                <Variable IRI="#j"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_resource"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#j"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_resource"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#j"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R13#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#NE_recognizing"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#dependency_parsing"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R15#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#NE_recognizing"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#lemmatization"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R16#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#NE_recognizing"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#root_extraction"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R14#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#NE_recognizing"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#stemming"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R18#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#POS_tagging"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#tokenization"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R10#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#chunking"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#POS_tagging"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R9#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#dependency_parsing"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#root_extraction"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R7#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#dependency_parsing"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#tokenization"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R8#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#dependency_parsing"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#tokenization"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R11#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#depparsing"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#POS_tagging"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R12#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#lemmatization"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#POS_tagging"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R17#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#normalization"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#tokenization"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R19#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#sentence_splitting"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#tokenization"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R21#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#sentiment_analysis"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#chunking"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R22#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#stemming"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#lemmatization"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R23#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#tokenization"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#sentence_splitting"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R24#selection rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#xml_cleaning"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#tokenization"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>x requiers y then y followed_by x</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R25# NLP domain understanding</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Linguistic_Proceesing_Functionality"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_requiers"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#may_followed_by"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An affix y that sourround a stem, then y is a circumfixe.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R5#NLP domain understanding rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#stem"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#affix"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#sourround"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Circumfixe"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Phrase x  has main part a verb then x is a verbal phrase.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R4# NLP domain understanding rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#phrase"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#verb"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#main_part"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#verbal_phrase"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A word x have a gender neuter, then x is in Englisch.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>R6# NLP domain understanding rule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#word"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_gender"/>
+                <Variable IRI="#x"/>
+                <NamedIndividual IRI="#neuter"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#English"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#adverbial_phrase</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#adverbial_phrase</IRI>
+        <Literal>Phrase headed by an adverb.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#affix</IRI>
+        <Literal>A letter or group of letters which are added to the beginning or end of a word to make a new word.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#deficient_verb</IRI>
+        <Literal>verb lacking certain morphosyntactic properties</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#deponent_verb</IRI>
+        <Literal>A verb with a passive morphology but functioning as an active verb.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#exclamative_point</IRI>
+        <Literal>word resulting from the aggregation of a preposition and a pronoun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#main_verb</IRI>
+        <Literal> Main verb in contrast to a modal or an auxiliary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#part_of_speech</IRI>
+        <Literal>Term used to describe how a particular word is used in a sentence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plain_verb</IRI>
+        <Literal>verb which has its own semantics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#point</IRI>
+        <Literal>Sign (.) used to expresses the end of a sentence or an abbreviation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#punctuation</IRI>
+        <Literal>Graphical mark used either at word level to indicate an abbreviation or at a text level to separate phrases or sentences.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#voice_noun</IRI>
+        <Literal>noun of a voice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#word</IRI>
+        <Literal>Linguistic unit composed of at least a part of speech and a lemma.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
